@@ -11,12 +11,14 @@
     --main_font: 'Nunito Sans', sans-serif;
     --underlign_color: #4361EE;
     --input_color: #e2e7ed80;
+    --padding_norm: 135px;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100vw;
 }
 
 .blue_div {
@@ -28,32 +30,26 @@ body {
     text-decoration-color: var(--underlign_color);
 }
 
-section {
-    display: flex;
-    justify-content: center;
-}
 
 footer {
     background-color: var(--footer_color);
     color: var(--white);
 }
 
+#img_head_2 {
+    display: flex;
+}
+
 header {
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: var(--padding_norm);
+    padding-right: var(--padding_norm);
 }
 
-#img_head_1 {
-    width: 40px;
-    margin-right: 40vw;
-}
 
-#img_head_2 {
-    width: 20px;
-    margin-left: 40vw;
-}
 
 h2 {
     font-family: var(--main_font);
