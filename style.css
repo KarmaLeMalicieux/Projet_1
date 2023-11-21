@@ -65,6 +65,7 @@ button {
 }
 
 h2 {
+    font-size: 48px;
     font-family: var(--main_font);
     font-weight: 700;
 }
@@ -112,7 +113,7 @@ main #section_2 {
     margin-top: 2%;
     line-height: 2em;
     font-family: var(--main_font);
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -132,14 +133,13 @@ main #section_2 {
 #section_2 #Elevate_Your_Brand div img {
     border-radius: 40% 60% 51% 49%;
     border: solid 4px #E9F4FF;
-    width: 250px;
 }
 
 
 #Elevate_Your_Brand #paragraph_Elevate_Your_B {
     margin: 5%;
     line-height: 2em;
-    font-size: 11px;
+    font-size: 20px;
     font-family: var(--main_font);
 }
 
@@ -167,13 +167,12 @@ main #section_2 {
     gap: 5%;
     margin: 5%;
     color: var(--white);
-    font-size: 10px;
+    font-size: 20px;
 }
 
 #section_3 #grid_set_upper img {
     border-radius: 5px;
     background: #FFFFFF;
-    height: 20px;
     margin-right: 10px;
     margin-left: 5px;
 }
@@ -185,7 +184,8 @@ main #section_2 {
 
 #grid_1 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 1.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -197,7 +197,8 @@ main #section_2 {
 
 #grid_2 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 2.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -209,7 +210,8 @@ main #section_2 {
 
 #grid_3 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 3.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -221,7 +223,8 @@ main #section_2 {
 
 #grid_4 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 4.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -233,7 +236,8 @@ main #section_2 {
 
 #grid_5 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 5.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -245,7 +249,8 @@ main #section_2 {
 
 #grid_6 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 6.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -257,7 +262,8 @@ main #section_2 {
 
 #grid_7 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 7.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -269,7 +275,8 @@ main #section_2 {
 
 #grid_8 {
     border-radius: 8px;
-    height: 200px;
+    height: 320px;
+    width: 270px;
     background-image: url(images/3_Our_Services/Rectangle\ 8.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -288,8 +295,10 @@ main #section_2 {
 
 #section_3 p {
     font-family: var(--main_font);
-    margin-bottom: 10%;
-    margin-left: 5%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 25px;
+    font-size: 16px;
 }
 
 #section_4 {
