@@ -135,7 +135,6 @@ main #section_2 {
     border: solid 4px #E9F4FF;
 }
 
-
 #Elevate_Your_Brand #paragraph_Elevate_Your_B {
     margin: 5%;
     line-height: 2em;
@@ -296,7 +295,7 @@ main #section_2 {
 #section_3 p {
     font-family: var(--main_font);
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 25px;
     font-size: 16px;
 }
@@ -322,14 +321,19 @@ main #section_2 {
 
 #carousel {
     border-radius: 6px;
-    background-color: var(--blue_div);
+    background-color: #F4F6FE;
 }
 
-#section_4 img {
+#section_4 div div img {
     border-radius: 40% 60% 51% 49%;
     border: solid 4px #B4D5F6;
-    width: 200px;
     transform: translateX(-40px);
+}
+
+#quote {
+    position: relative;
+    bottom: 100px;
+    left: 30px;
 }
 
 #carousel div {
@@ -338,7 +342,7 @@ main #section_2 {
 
 #section_4 p {
     font-family: var(--main_font);
-    font-size: 9px;
+    font-size: 20px;
 }
 
 #special_title {
@@ -363,38 +367,36 @@ main #section_2 {
 
 #section_5 #form {
     margin-right: 5%;
-    padding: 5%;
+    padding: 3%;
     border-radius: 7px;
     font-family: var(--main_font);
     background-color: var(--white);
     line-height: 2em;
-    transform: translateY(50px);
+    position: relative;
+    top: 70px;
     box-shadow: 1px 4px 1px 1px rgba(34, 34, 35, 0.1);
 }
 
-#section_5 #form button {
-    margin-top: 15%;
-}
-
 #section_5 #form input {
+    width: 100%;
+    margin-bottom: 60px;
     border-radius: 2px;
     border-style: none;
     border: solid var(--input_color) 0.1px;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 16px;
     padding: 2%;
-    padding-right: 55%;
 }
 
 #section_5 form {
-    width: 250px;
+    width: 570px;
+    height: 564px;
 }
 
 #contact_us_right {
     margin-left: 8%;
     margin-right: 20%;
 }
-
 
 .contact_infos {
     font-family: var(--main_font);
@@ -405,7 +407,12 @@ main #section_2 {
 }
 
 .contact_infos p {
-    font-size: 10px;
+    font-size: 18px;
+}
+
+#section_5 h6 {
+    font-family: var(--main_font);
+    font-size: 20px;
 }
 
 #section_5 img {
@@ -422,38 +429,46 @@ main #section_2 {
 
 
 #section_6 {
+    padding: 5%;
     display: flex;
     flex-direction: column;
-}
-
-#_section_6 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 #section_6 img {
     width: 100%;
 }
 
+#under_class {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
 .card_section_6 {
     border-radius: 4px;
-    width: 30%;
-
+    width: 100%;
+    overflow: hidden;
 }
 
 .desciption_section_6 {
-    padding: 8%;
+    padding: 5%;
     font-family: var(--main_font);
-    font-size: 13px;
+    font-size: 24px;
     transform: translateY(-5px);
     background-color: var(--blue_div);
     border-radius: 0% 0% 5% 5%;
 }
 
 .desciption_section_6 button {
-    font-size: 10px;
+    font-size: 16px;
     color: var(--blue_button);
     margin-top: 5%;
     background-color: var(--blue_div);
+}
+
+#view_all {
+    margin-top: 30px;
+    align-self: center;
+    padding: 16px, 34px;
 }
