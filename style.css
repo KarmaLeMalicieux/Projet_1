@@ -5,6 +5,7 @@
 
 :root {
     --blue_div: #E9F4FF;
+    --white_color: #F5F5F5;
     --footer_color: #03071B;
     --white: #FFFFFF;
     --blue_button: #4361EE;
@@ -62,6 +63,11 @@ button {
     background-color: var(--blue_button);
     color: var(--white);
     border: none;
+}
+
+button:hover {
+
+    border: 2px solid rgb(0, 0, 0);
 }
 
 h2 {
@@ -471,4 +477,114 @@ main #section_2 {
     margin-top: 30px;
     align-self: center;
     padding: 16px, 34px;
+}
+
+#footer_block {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+#footer_contact {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer h3 {
+
+
+    color: var(--white_color);
+    font-family: var(--main_font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.paragraph_footer_contact {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+footer p {
+
+    color: var(--white_color);
+    font-family: var(--main_font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#copyright {
+    text-align: center;
+}
+
+#footer_explore {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+#footer_explore {
+
+    color: var(--white_color);
+    font-family: var(--main_font);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#footer_form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 31px;
+}
+
+footer form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer form input {
+
+    background-color: rgba(34, 34, 35, 0);
+    color: var(--white_color);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(169, 169, 169, 0.3);
+    box-shadow: none;
+}
+
+footer form button {
+
+    width: 41%;
+    height: 50px;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+footer form p {
+    font-weight: 200;
+    font-size: 15px;
 }
